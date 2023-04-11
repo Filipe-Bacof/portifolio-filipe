@@ -19,7 +19,7 @@ const InformationContainer = () => {
                 <p>filipebacof@gmail.com</p>
             </div>
         </div>
-        <div className="info-card">
+        <div className="info-card last-one">
             <AiFillEnvironment id="pin-icon"/>
             <div>
                 <h3>Localização</h3>

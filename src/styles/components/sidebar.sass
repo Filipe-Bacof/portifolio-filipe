@@ -14,6 +14,7 @@
 
     img
         max-width: 70%
+        min-width: 305px // pois essa foto possui esse tamanho
         border-radius: variables.$container-border-radius
         position: absolute
         top: -3rem
@@ -22,8 +23,10 @@
         color: variables.$text-color-secondary
         background-color: variables.$bg-color-secondary
         border-radius: variables.$card-border-radius
-        margin-top: 12rem
+        margin-top: 14rem
         padding: .8rem 1.2rem
 
     .btn
         @include mixins.btn
+        margin-bottom: 1.2rem
+        min-width: 18rem
