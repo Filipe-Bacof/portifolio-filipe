@@ -1,9 +1,18 @@
+import SocialNetworks from './SocialNetworks';
+
+import Avatar from '../img/ProfilePic.jpg';
+
+import '../styles/components/sidebar.sass';
+import InformationContainer from './InformationContainer';
+
 const Sidebar = () => {
   return (
     <aside id="sidebar">
-        <p>imagem</p>
+        <img src={Avatar} alt="Foto de Perfil Filipe Bacof" />
         <p className="title">Desenvolvedor</p>
-        <p>redes sociais</p>
+        <SocialNetworks />
+        <InformationContainer />
+        <a href="" className="btn">Download Currículo</a>
     </aside>
   )
 }

@@ -1,6 +1,12 @@
+import '../styles/components/maincontent.sass';
+
 const MainContent = () => {
   return (
-    <div>MainContent</div>
+    <main id='main-content'>
+        <p>about</p>
+        <p>tecnologias</p>
+        <p>projetos</p>
+    </main>
   )
 }
 
