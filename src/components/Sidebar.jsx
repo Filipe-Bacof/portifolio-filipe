@@ -12,8 +12,8 @@ const Sidebar = () => {
         <p className="title">Desenvolvedor Full-Stack</p>
         <SocialNetworks />
         <InformationContainer />
-        <a href="public/curriculum-portuguese.pdf" download="Currículo Filipe Bacof.pdf" className="btn">Download Currículo em Português</a>
-        <a href="public/curriculum-english.pdf" download="Resume Filipe Bacof.pdf" className="btn">Download Currículo em Inglês</a>
+        <a href="https://drive.google.com/file/d/12q4FMKlkwS2J-NDIpsa5DrFxhKbdLfly/" download="Currículo Filipe Bacof.pdf" className="btn">Download Currículo em Português</a>
+        <a href="https://drive.google.com/file/d/1fBVo9LdpyN7JQ0n66VFnvPHl-4qw8NZR/" download="Resume Filipe Bacof.pdf" className="btn">Download Currículo em Inglês</a>
     </aside>
   )
 }
