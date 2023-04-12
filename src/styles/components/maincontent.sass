@@ -7,6 +7,9 @@
     border-radius: variables.$container-border-radius
     padding: 3rem
 
+    @include mixins.mobile
+        padding: 2rem
+
     section
         display: flex
         flex-direction: column
@@ -21,6 +24,17 @@
 
         &:after
             @include mixins.gradient-border
+
+            @include mixins.mobile
+                background: none
+                height: 0
+                width: 0
+
+        @include mixins.mobile
+            font-size: 1.5rem
+            background: variables.$gradient
+            -webkit-background-clip: text
+            -webkit-text-fill-color: transparent
 
     p
         color: variables.$text-color-secondary
