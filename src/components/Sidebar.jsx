@@ -12,8 +12,8 @@ const Sidebar = () => {
         <p className="title">Desenvolvedor Full-Stack</p>
         <SocialNetworks />
         <InformationContainer />
-        <a href="https://drive.google.com/file/d/12q4FMKlkwS2J-NDIpsa5DrFxhKbdLfly/" target="_blank" className="btn">Meu Currículo em Português</a>
-        <a href="https://drive.google.com/file/d/1fBVo9LdpyN7JQ0n66VFnvPHl-4qw8NZR/" target="_blank" className="btn">Meu Currículo em Inglês</a>
+        <a href="https://github.com/Filipe-Bacof/portifolio-filipe/raw/master/public/curriculo-filipe-bacof.pdf" target="_blank" className="btn">Baixe meu Currículo (Português)</a>
+        <a href="https://github.com/Filipe-Bacof/portifolio-filipe/raw/master/public/resume-filipe-bacof.pdf" target="_blank" className="btn">Baixe meu Currículo (Inglês)</a>
         <a href="https://github.com/Filipe-Bacof/portifolio-filipe" target="_blank" className="btn">Ver Repositório deste Portifólio</a>
     </aside>
   )
