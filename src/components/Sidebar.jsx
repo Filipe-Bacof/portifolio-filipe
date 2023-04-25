@@ -14,6 +14,7 @@ const Sidebar = () => {
         <InformationContainer />
         <a href="https://github.com/Filipe-Bacof/portifolio-filipe/raw/master/public/curriculo-filipe-bacof.pdf" target="_blank" className="btn">Baixe meu Currículo (Português)</a>
         <a href="https://github.com/Filipe-Bacof/portifolio-filipe/raw/master/public/resume-filipe-bacof.pdf" target="_blank" className="btn">Baixe meu Currículo (Inglês)</a>
+        <a href="https://filipe-bacof.github.io/Meus-Certificados/" target="_blank" className="btn">Ver Meus Certificados</a>
         <a href="https://github.com/Filipe-Bacof/portifolio-filipe" target="_blank" className="btn">Ver Repositório deste Portifólio</a>
         <a href="https://filipe-bacof.github.io/Musicas-Bacof/" target="_blank" className="btn">Site Pessoal de Músicas</a>
         <a href="https://movies-lib-bacof.vercel.app/" target="_blank" className="btn">Biblioteca de Filmes</a>
