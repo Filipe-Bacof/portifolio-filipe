@@ -25,8 +25,8 @@ const technologies = [
     { id: "react", name: "React.js", icon: <DiReact />, text: "Framework de JavaScript com foco em criar interfaces de usuário em páginas web, criado e mantido pelo Facebook (atual Meta)." },
     { id: "mongodb", name: "MongoDB", icon: <DiMongodb />, text: "Banco de dados não-relacional orientado a documentos, classificado como um programa de banco de dados NoSQL." },
     { id: "typescript", name: "TypeScript", icon: <SiTypescript />, text: "Superconjunto sintático estrito de JavaScript e adiciona tipagem estática opcional à linguagem." },
-    // { id: "nextjs", name: "Next.js", icon: <SiNextdotjs />, text: "Next.js é um framework React com foco em produção e eficiência criado e mantido pela equipe da Vercel." },
-    // { id: "jest", name: "Jest", icon: <SiJest />, text: "Framework de teste unitário de código aberto em JavaScript criado pelo Facebook a partir do framework Jasmine." },
+    { id: "nextjs", name: "Next.js", icon: <SiNextdotjs />, text: "Next.js é um framework React com foco em produção e eficiência criado e mantido pela equipe da Vercel." },
+    { id: "jest", name: "Jest", icon: <SiJest />, text: "Framework de teste unitário de código aberto em JavaScript criado pelo Facebook a partir do framework Jasmine." },
 ]
 
 const TechnologiesContainer = () => {
