@@ -17,7 +17,7 @@ const Sidebar = () => {
         <a href="https://filipe-bacof.github.io/Meus-Certificados/" target="_blank" className="btn">Ver Meus Certificados</a>
         <a href="https://github.com/Filipe-Bacof/portifolio-filipe" target="_blank" className="btn">Ver Repositório deste Portifólio</a>
         <a href="https://github.com/Filipe-Bacof/Media-Queries-CSS" target="_blank" className="btn">Aprenda Media Queries do CSS3</a>
-        <a href="https://filipe-bacof.github.io/Musicas-Bacof/" target="_blank" className="btn">Site Pessoal de Músicas</a>
+        <a href="https://bacof-chat-gpt-clone.vercel.app/" target="_blank" className="btn">Clone do Chat GPT</a>
         <a href="https://movies-lib-bacof.vercel.app/" target="_blank" className="btn">Biblioteca de Filmes</a>
     </aside>
   )
