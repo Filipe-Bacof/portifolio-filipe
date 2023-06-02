@@ -1,0 +1,67 @@
+@use '../variables'
+@use '../mixins'
+
+.links
+  display: flex
+  
+.btn-project-deploy
+  @include mixins.btn
+  align-self: start
+  min-width: 10rem
+  text-align: center
+  transition: .4s
+  border-radius: 0
+  border-top-left-radius: 3rem
+  border-bottom-left-radius: 3rem
+
+.btn-project-middle
+  @include mixins.btn
+  background: variables.$middle-gradient
+  align-self: start
+  min-width: 10rem
+  text-align: center
+  transition: .4s
+  border-radius: 0
+
+.btn-project-middle:hover
+  background: variables.$rev-middle-gradient
+  transition: none
+
+.btn-project-deploy:hover
+  background: variables.$rev-gradient
+  transition: none
+
+.btn-project-github
+  @include mixins.btn
+  background: variables.$rev-gradient
+  align-self: start
+  min-width: 10rem
+  text-align: center
+  transition: .4s
+  border-radius: 0
+  border-top-right-radius: 3rem
+  border-bottom-right-radius: 3rem
+
+.btn-project-github:hover
+  background: variables.$gradient
+  transition: none
+
+.projects-container
+  margin-bottom: 1rem
+  .project-item
+    margin-bottom: 1.5rem
+  h3
+    background: variables.$gradient
+    -webkit-background-clip: text
+    -webkit-text-fill-color: transparent
+    font-size: 1.75rem
+    margin-bottom: .5rem
+    @media(max-width: 1150px)
+      font-size: 1.2rem
+      background: transparent
+      -webkit-background-clip: initial
+      -webkit-text-fill-color: initial
+      color: variables.$text-color
+  
+  p
+    line-height: 1rem
