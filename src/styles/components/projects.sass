@@ -77,8 +77,23 @@
     width: 92%
     border: 1px solid #333
     border-radius: variables.$card-border-radius
+    @include mixins.mobile
+      width: 100%
+      justify-content: left
+
+    .logo-title
+      display: flex
+      margin-bottom: .5rem
+
+      img
+        width: 3rem
+        height: 3rem
+        border-radius: .5rem
+
   h3
     background: variables.$gradient
+    padding-top: .5rem
+    padding-left: .5rem
     -webkit-background-clip: text
     -webkit-text-fill-color: transparent
     font-size: 1.75rem

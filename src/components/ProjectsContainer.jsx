@@ -2,12 +2,25 @@ import '../styles/components/projects.sass';
 import { FaGithub, FaYoutube } from 'react-icons/fa'
 import { RiNavigationLine } from 'react-icons/ri'
 
+import chatGPT from '../img/projects/chatgpt.png'
+import doom from '../img/projects/Doom.jpg'
+import netflix from '../img/projects/Netflix.png'
+import nlwCopa from '../img/projects/NLW-Copa.png'
+import nlwEsports from '../img/projects/NLW-Esports.png'
+import nlwSpacetime from '../img/projects/NLW-Spacetime.png'
+import pokemon from '../img/projects/pokebola-display-926x926.png'
+import resize from '../img/projects/resize.jpg'
+import tmdb from '../img/projects/tmdb.jpeg'
+
 const ProjectsContainer = () => {
   return (
     <section className="projects-container">
         <h2>Alguns dos meus projetos</h2>
         <div className='project-item'>
-          <h3>NLW Spacetime - Rocketseat</h3>
+          <div className='logo-title'>
+            <img src={nlwSpacetime} alt="Icon NLW Spacetime" />
+            <h3>NLW Spacetime - Rocketseat</h3>
+          </div>
           <p>
             Realizado entre os dias 15 e 19 de maio de 2023;<br/>
             Durante este evento pude aprimorar minhas habilidades de desenvolvimento full-stack e brincar um pouco com desenvolvimento mobile;<br/>
@@ -21,7 +34,10 @@ const ProjectsContainer = () => {
         </div>
 
         <div className='project-item'>
-          <h3>Clone do Chat GPT</h3>
+          <div className='logo-title'>
+            <img src={chatGPT} alt="Icon Chat GPT" />
+            <h3>Clone do Chat GPT</h3>
+          </div>
           <p>
             Projeto efetuado utilizando o framework Next.JS e a API da OpenAI, que é a mesma utilizada pelo Chat GPT oficial;<br/>
             Clonar esta interface e integrar ela com a API foi uma experiência muito empolgante, descobri diversos recursos interessantes sobre a OpenAI para aplicar em projetos futuros;<br/>
@@ -34,7 +50,10 @@ const ProjectsContainer = () => {
         </div>
 
         <div className='project-item'>
-          <h3>Biblioteca de Filmes</h3>
+          <div className='logo-title'>
+            <img src={tmdb} alt="Icon TMDB" />
+            <h3>Biblioteca de Filmes</h3>
+          </div>
           <p>
             Aqui você consegue encontrar e pesquisar por filmes, e ver detalhes como orçamento, produtor, duração;<br/>
             Este projeto foi feito com React no curso do Hora de Codar, do professor Matheus Battisti;<br/>
@@ -47,7 +66,10 @@ const ProjectsContainer = () => {
         </div>
         
         <div className='project-item'>
-          <h3>Netflix Clone</h3>
+          <div className='logo-title'>
+            <img src={netflix} alt="Icon Netflix" />
+            <h3>Netflix Clone</h3>
+          </div>
           <p>
             Executei este site enquanto estudava front-end utilizando React;<br/>
             Clonei apenas a interface da Netflix utilizando a API do The Movie DataBase (TMDB)<br/>
@@ -61,7 +83,10 @@ const ProjectsContainer = () => {
         </div>
 
         <div className='project-item'>
-          <h3>NLW E-Sports - Rocketseat</h3>
+          <div className='logo-title'>
+            <img src={nlwEsports} alt="Icon NLW E-Sports" />
+            <h3>NLW E-Sports - Rocketseat</h3>
+          </div>
           <p>
             Evento que ocorreu em Setembro de 2022, onde efetuei a trilha Explorer com este projeto de HTML, CSS e JavaScript;<br/>
             O objetivo era efetuei algo semelhante a um link-tree para gamers, gostei bastante do resultado com todas as animações;<br/>
@@ -75,7 +100,10 @@ const ProjectsContainer = () => {
         </div>
 
         <div className='project-item'>
-          <h3>NLW Copa - Rocketseat</h3>
+          <div className='logo-title'>
+            <img src={nlwCopa} alt="Icon NLW Copa" />
+            <h3>NLW Copa - Rocketseat</h3>
+          </div>
           <p>
             Evento que aconteceu em Outubro de 2022 promovido pela Rocketseat;<br/>
             Durante esse evento, tive a oportunidade de desenvolver várias ideias que aumentaram a complexidade do projeto. Como não havia uma API disponível com os resultados dos jogos, fiz todas as atualizações manualmente, o que tornou a experiência ainda mais desafiadora;<br/>
@@ -88,9 +116,13 @@ const ProjectsContainer = () => {
         </div>
 
         <div className='project-item'>
-          <h3>Pokédex</h3>
+          <div className='logo-title'>
+            <img src={pokemon} alt="Icon Pokebola" />
+            <h3>Pokédex</h3>
+          </div>
           <p>
-            Projeto utilizando HTML, CSS e JavaScript utilizando a PokeAPI.
+            Projeto utilizando HTML, CSS e JavaScript utilizando a PokéAPI.<br/>
+            A PokéAPI oferece acesso a uma ampla gama de dados, incluindo informações detalhadas sobre cada Pokémon, como nome, habilidades, tipos, estatísticas, evoluções, sprites e muito mais. Ela também fornece informações sobre movimentos, itens, jogos e localizações encontradas nos jogos Pokémon.
           </p>
           <div className='links'>
             <a href="https://filipe-bacof.github.io/Pokedex/" target="_blank" className="btn-project-deploy"><RiNavigationLine />&nbsp;&nbsp;Ver Deploy</a>
@@ -99,7 +131,10 @@ const ProjectsContainer = () => {
         </div>
 
         <div className='project-item'>
-          <h3>Aprenda Media Queries do CSS3</h3>
+          <div className='logo-title'>
+            <img src={resize} alt="Icon Resize" />
+            <h3>Aprenda Media Queries do CSS3</h3>
+          </div>
           <p>
             Criei este repositório no GitHub para fornecer um exemplo mais claro do conceito de Media Queries do CSS3. As Media Queries são um recurso poderoso que permite adicionar responsividade aos sites, permitindo que sejam visualizados e utilizados em diferentes tamanhos de tela, como em dispositivos móveis, tablets e desktops;<br/>
             A intenção é ajudar os desenvolvedores a compreenderem e dominarem o uso das Media Queries, permitindo que criem sites adaptáveis e amigáveis para diferentes contextos de visualização. Sinta-se à vontade para explorar o repositório, cloná-lo e utilizar o código como base para seus próprios projetos. Espero que esse recurso seja útil para você e contribua para o seu aprendizado sobre responsividade no desenvolvimento web.
@@ -110,7 +145,10 @@ const ProjectsContainer = () => {
         </div>
 
         <div className='project-item'>
-          <h3>Doom Fire - Filipe Deschamps</h3>
+          <div className='logo-title'>
+            <img src={doom} alt="Icon Doom" />
+            <h3>Doom Fire - Filipe Deschamps</h3>
+          </div>
           <p>Fazer esse projeto junto com o Filipe Deschamps é o que pode fazer você se apaixonar por programação, tive diversas idéias que estão registradas para treinar melhor minhas habilidades de desenvolvimento front-end.</p>
           <div className='links'>
             <a href="https://filipe-bacof.github.io/Domm-Fire-Deschamps/projeto%20limpo/index.html" target="_blank" className="btn-project-deploy"><RiNavigationLine />&nbsp;&nbsp;Ver Deploy</a>
