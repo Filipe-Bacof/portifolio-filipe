@@ -24,7 +24,7 @@ const ProjectsContainer = () => {
           <h3>Clone do Chat GPT</h3>
           <p>
             Projeto efetuado utilizando o framework Next.JS e a API da OpenAI, que é a mesma utilizada pelo Chat GPT oficial;<br/>
-            Clonar esta interface e integrar ela com a API foi uma experiência muito interessante, descobri diversos recursos interessantes sobre a OpenAI para aplicar em projetos futuros;<br/>
+            Clonar esta interface e integrar ela com a API foi uma experiência muito empolgante, descobri diversos recursos interessantes sobre a OpenAI para aplicar em projetos futuros;<br/>
             Neste projeto, como foi feito utilizando Next.JS, é recomendado utilizar o Tailwind CSS, as vezes fico verdadeiramente impressionado com a capacidade dessa ferramenta em aumentar fortemente a nossa produtividade.
           </p>
           <div className='links'>
