@@ -1,4 +1,5 @@
 import { AiOutlineWhatsApp } from 'react-icons/ai'
+import '../styles/components/oportunities.sass';
 
 const OportunitiesContainer = () => {
   return (
