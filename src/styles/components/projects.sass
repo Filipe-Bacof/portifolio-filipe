@@ -3,6 +3,9 @@
 
 .links
   display: flex
+  @media(max-width: 1150px)
+    flex-direction: column
+    gap: .5rem
   
 .btn-project-deploy
   @include mixins.btn
@@ -13,6 +16,10 @@
   border-radius: 0
   border-top-left-radius: 3rem
   border-bottom-left-radius: 3rem
+  @media(max-width: 1150px)
+    background: variables.$gradient
+    border-radius: 3rem
+    min-width: 18rem
 
 .btn-project-middle
   @include mixins.btn
@@ -22,6 +29,10 @@
   text-align: center
   transition: .4s
   border-radius: 0
+  @media(max-width: 1150px)
+    background: variables.$gradient
+    border-radius: 3rem
+    min-width: 18rem
 
 .btn-project-middle:hover
   background: variables.$rev-middle-gradient
@@ -41,6 +52,10 @@
   border-radius: 0
   border-top-right-radius: 3rem
   border-bottom-right-radius: 3rem
+  @media(max-width: 1150px)
+    background: variables.$gradient
+    border-radius: 3rem
+    min-width: 18rem
 
 .btn-project-github:hover
   background: variables.$gradient

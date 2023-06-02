@@ -68,7 +68,7 @@ const ProjectsContainer = () => {
             O desafio após o evento ficou de "clonar" o site utilizando outra temática, portanto fiz um link-tree para músicos.
           </p>
           <div className='links'>
-            <a href="https://filipe-bacof.github.io/NLW_Rocketseat_Explorer_Esports/" target="_blank" className="btn-project-deploy"><RiNavigationLine />&nbsp;&nbsp;Ver Site Online</a>
+            <a href="https://filipe-bacof.github.io/NLW_Rocketseat_Explorer_Esports/" target="_blank" className="btn-project-deploy"><RiNavigationLine />&nbsp;&nbsp;Ver Deploy</a>
             <a href="https://github.com/Filipe-Bacof/NLW_Rocketseat_Explorer_Esports" target="_blank" className="btn-project-middle"><FaGithub />&nbsp;&nbsp;Ver Repositório</a>
             <a href="https://filipe-bacof.github.io/Musicas-Bacof/" target="_blank" className="btn-project-github"><RiNavigationLine />&nbsp;&nbsp;Desafio Variação</a>
           </div>
@@ -113,7 +113,7 @@ const ProjectsContainer = () => {
           <h3>Doom Fire - Filipe Deschamps</h3>
           <p>Fazer esse projeto junto com o Filipe Deschamps é o que pode fazer você se apaixonar por programação, tive diversas idéias que estão registradas para treinar melhor minhas habilidades de desenvolvimento front-end.</p>
           <div className='links'>
-            <a href="https://filipe-bacof.github.io/Domm-Fire-Deschamps/projeto%20limpo/index.html" target="_blank" className="btn-project-deploy"><RiNavigationLine />&nbsp;&nbsp;Ver Site Online</a>
+            <a href="https://filipe-bacof.github.io/Domm-Fire-Deschamps/projeto%20limpo/index.html" target="_blank" className="btn-project-deploy"><RiNavigationLine />&nbsp;&nbsp;Ver Deploy</a>
             <a href="https://github.com/Filipe-Bacof/Domm-Fire-Deschamps" target="_blank" className="btn-project-middle"><FaGithub />&nbsp;&nbsp;Ver Repositório</a>
             <a href="https://www.youtube.com/watch?v=HCjDjsHPOco" target="_blank" className="btn-project-github"><FaYoutube />&nbsp;&nbsp;Filipe Deschamps</a>
           </div>
