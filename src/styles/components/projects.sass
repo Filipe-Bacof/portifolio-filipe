@@ -3,9 +3,11 @@
 
 .links
   display: flex
-  @media(max-width: 1150px)
+
+  @include mixins.mobile
     flex-direction: column
     gap: .5rem
+
     a
       margin: 0 auto
       align-items: center
@@ -20,7 +22,8 @@
   border-radius: 0
   border-top-left-radius: 3rem
   border-bottom-left-radius: 3rem
-  @media(max-width: 1150px)
+
+  @include mixins.mobile
     background: variables.$gradient
     border-radius: 3rem
     min-width: 18rem
@@ -33,7 +36,8 @@
   text-align: center
   transition: .4s
   border-radius: 0
-  @media(max-width: 1150px)
+
+  @include mixins.mobile
     background: variables.$gradient
     border-radius: 3rem
     min-width: 18rem
@@ -41,7 +45,8 @@
 .btn-project-middle:hover
   background: variables.$rev-middle-gradient
   transition: none
-  @media(max-width: 1150px)
+
+  @include mixins.mobile
     background: variables.$rev-gradient
 
 .btn-project-deploy:hover
@@ -58,7 +63,8 @@
   border-radius: 0
   border-top-right-radius: 3rem
   border-bottom-right-radius: 3rem
-  @media(max-width: 1150px)
+
+  @include mixins.mobile
     background: variables.$gradient
     border-radius: 3rem
     min-width: 18rem
@@ -66,20 +72,29 @@
 .btn-project-github:hover
   background: variables.$gradient
   transition: none
-  @media(max-width: 1150px)
+
+  @include mixins.mobile
     background: variables.$rev-gradient
 
 .projects-container
   margin-bottom: 1rem
+
+  .projects-grid
+    @include mixins.big-screen
+    display: flex
+    flex-wrap: wrap
+    gap: 1.5rem
+    justify-content: space-between
+
   .project-item
     margin-bottom: 1.5rem
     padding: 1rem
-    width: 92%
+    width: 100%
     border: 1px solid #333
     border-radius: variables.$card-border-radius
-    @include mixins.mobile
-      width: 100%
-      justify-content: left
+      
+    @include mixins.medium-screen
+      width: 49%
 
     .logo-title
       display: flex
@@ -98,7 +113,8 @@
     -webkit-text-fill-color: transparent
     font-size: 1.75rem
     margin-bottom: .5rem
-    @media(max-width: 1150px)
+
+    @include mixins.mobile
       font-size: 1.2rem
       background: transparent
       -webkit-background-clip: initial
