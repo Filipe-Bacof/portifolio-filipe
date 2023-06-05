@@ -8,6 +8,7 @@ import netflix from '../img/projects/Netflix.png'
 import nlwCopa from '../img/projects/NLW-Copa.png'
 import nlwEsports from '../img/projects/NLW-Esports.png'
 import nlwSpacetime from '../img/projects/NLW-Spacetime.png'
+import nodejs from '../img/projects/nodeJS.png'
 import pokemon from '../img/projects/pokebola-display-926x926.png'
 import resize from '../img/projects/resize.jpg'
 import tmdb from '../img/projects/tmdb.jpeg'
@@ -47,6 +48,23 @@ const ProjectsContainer = () => {
             <div className='links'>
               <a href="https://bacof-chat-gpt-clone.vercel.app/" target="_blank" className="btn-project-deploy"><RiNavigationLine />&nbsp;&nbsp;Ver Deploy</a>
               <a href="https://github.com/Filipe-Bacof/Chat-GPT-Clone" target="_blank" className="btn-project-github"><FaGithub />&nbsp;&nbsp;Ver Repositório</a>
+            </div>
+          </div>
+
+          <div className='project-item'>
+            <div className='logo-title'>
+              <img src={nodejs} alt="Icon Node.JS" />
+              <h3>API Node.JS - SmartClasses DB</h3>
+            </div>
+            <p>
+              Projeto feito como teste técnico no processo de seleção para a empresa IMM Digital.<br/>
+              Em apenas 3 dias, desenvolvi uma solução utilizando tecnologias como Node.js, Express, JavaScript, MongoDB, Mongoose e JsonWebToken (JWT).<br/>
+              A implementação da autenticação JWT garantiu a segurança dos dados sensíveis, enquanto o Railway foi utilizado para hospedar a API.<br/>
+              Apesar do prazo curto, enfrentei o desafio com determinação e entreguei um projeto funcional e bem estruturado.
+            </p>
+            <div className='links'>
+              <a href="https://imm-teste-tecnico-backend.up.railway.app/" target="_blank" className="btn-project-deploy"><RiNavigationLine />&nbsp;&nbsp;Ver Deploy</a>
+              <a href="https://github.com/Filipe-Bacof/imm-teste-tecnico-backend" target="_blank" className="btn-project-github"><FaGithub />&nbsp;&nbsp;Ver Repositório</a>
             </div>
           </div>
 
