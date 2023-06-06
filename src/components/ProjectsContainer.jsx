@@ -26,12 +26,19 @@ const ProjectsContainer = () => {
             <p>
               Realizado entre os dias 15 e 19 de maio de 2023;<br/>
               Durante este evento pude aprimorar minhas habilidades de desenvolvimento full-stack e brincar um pouco com desenvolvimento mobile;<br/>
-              Tecnologias utilizadas: NodeJS, Fastify, Prisma, Typescript, Zod, Autenticação JWT, GitHub O-Auth, NextJS, ReactJS, TailwindCSS, React Native e Expo.
+              Tecnologias utilizadas na trilha Ignite: NodeJS, Fastify, Prisma, Typescript, Zod, Autenticação JWT, GitHub O-Auth, NextJS, ReactJS, TailwindCSS, React Native e Expo.<br/>
+              Para a trilha explorer fiz uma abordagem diferente, como eu queria ter o projeto no ar com minhas memórias, repliquei o projetinho simples utilizando NextJS e Tailwind.
             </p>
+            <h4>Trila Ignite</h4>
             <div className='links'>
               <a href="https://github.com/Filipe-Bacof/server-spacetime" target="_blank" className="btn-project-deploy"><FaGithub />&nbsp;&nbsp;Back-end</a>
               <a href="https://github.com/Filipe-Bacof/web-spacetime" target="_blank" className="btn-project-middle"><FaGithub />&nbsp;&nbsp;Front-end</a>
               <a href="https://github.com/Filipe-Bacof/mobile-spacetime" target="_blank" className="btn-project-github"><FaGithub />&nbsp;&nbsp;Mobile</a>
+            </div>
+            <h4>Trila Explorer</h4>
+            <div className='links2'>
+              <a href="https://explorer-spacetime-black.vercel.app/" target="_blank" className="btn-project-deploy"><RiNavigationLine />&nbsp;&nbsp;Ver Deploy</a>
+              <a href="https://github.com/Filipe-Bacof/explorer-spacetime" target="_blank" className="btn-project-github"><FaGithub />&nbsp;&nbsp;Ver Repositório</a>
             </div>
           </div>
 

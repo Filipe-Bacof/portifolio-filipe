@@ -1,6 +1,19 @@
 @use '../variables'
 @use '../mixins'
 
+.links2
+  display: flex
+  margin-top: .5rem
+
+  @include mixins.mobile
+    flex-direction: column
+    gap: .5rem
+
+    a
+      margin: 0 auto
+      align-items: center
+      text-align: center
+
 .links
   display: flex
 
@@ -92,6 +105,13 @@
     width: 100%
     border: 1px solid #333
     border-radius: variables.$card-border-radius
+
+    h4
+      color: variables.$text-color
+      margin: .5rem 0
+
+      @include mixins.mobile
+        text-align: center
       
     @include mixins.medium-screen
       width: 49%
