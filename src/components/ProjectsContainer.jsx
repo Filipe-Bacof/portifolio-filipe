@@ -10,6 +10,7 @@ import nlwEsports from '../img/projects/NLW-Esports.png'
 import nlwSpacetime from '../img/projects/NLW-Spacetime.png'
 import nodejs from '../img/projects/nodeJS.png'
 import pokemon from '../img/projects/pokebola-display-926x926.png'
+import probabilidade from '../img/projects/probabilidade.jpg'
 import resize from '../img/projects/resize.jpg'
 import tmdb from '../img/projects/tmdb.jpeg'
 
@@ -167,6 +168,20 @@ const ProjectsContainer = () => {
             </p>
             <div className='links'>
               <a href="https://github.com/Filipe-Bacof/Media-Queries-CSS" target="_blank" className="btn"><FaGithub />&nbsp;&nbsp;Ver este Projeto</a>
+            </div>
+          </div>
+
+          <div className='project-item'>
+            <div className='logo-title'>
+              <img src={probabilidade} alt="Icon Probabilidade" />
+              <h3>Monty Hall - Porta Premiada</h3>
+            </div>
+            <p>
+              Desenvolvi este projeto utilizando Next.js e Tailwind CSS, com o objetivo de proporcionar uma explicação sobre o enigma estatístico e paradoxal de Monty Hall.
+            </p>
+            <div className='links'>
+              <a href="https://porta-premiada-curso-cod3r.vercel.app/" target="_blank" className="btn-project-deploy"><RiNavigationLine />&nbsp;&nbsp;Ver Deploy</a>
+              <a href="https://github.com/Filipe-Bacof/porta-premiada" target="_blank" className="btn-project-github"><FaGithub />&nbsp;&nbsp;Ver Repositório</a>
             </div>
           </div>
 
