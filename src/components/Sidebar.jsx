@@ -7,6 +7,7 @@ import InformationContainer from './InformationContainer';
 import { FaGithub } from 'react-icons/fa';
 import { TbFileCertificate } from 'react-icons/tb'
 import { FiDownload } from 'react-icons/fi'
+import { RiNavigationLine } from 'react-icons/ri';
 
 const Sidebar = () => {
   return (
@@ -19,6 +20,7 @@ const Sidebar = () => {
         <a href="https://github.com/Filipe-Bacof/portifolio-filipe/raw/master/public/resume-filipe-bacof.pdf" target="_blank" className="btn"><FiDownload />&nbsp;&nbsp;Baixe meu Currículo (Inglês)</a>
         <a href="https://filipe-bacof.github.io/Meus-Certificados/" target="_blank" className="btn"><TbFileCertificate />&nbsp;&nbsp;Ver Meus Certificados</a>
         <a href="https://github.com/Filipe-Bacof/portifolio-filipe" target="_blank" className="btn"><FaGithub />&nbsp;&nbsp;Ver Repositório do Portifólio</a>
+        <a href="https://portifolio-filipe-bacof-novo.vercel.app" target="_blank" className="btn"><RiNavigationLine />&nbsp;&nbsp;Ver Spoiler: Portifólio Novo</a>
     </aside>
   )
 }
