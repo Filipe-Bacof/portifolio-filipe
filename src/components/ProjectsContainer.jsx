@@ -3,10 +3,11 @@ import { FaGithub, FaYoutube } from 'react-icons/fa'
 import { RiNavigationLine } from 'react-icons/ri'
 
 import chatGPT from '../img/projects/chatgpt.png'
-import netflix from '../img/projects/Netflix.png'
 import nlwEsports from '../img/projects/NLW-Esports.png'
 import nlwSpacetime from '../img/projects/NLW-Spacetime.png'
 import nodejs from '../img/projects/nodeJS.png'
+import pokebola from '../img/projects/pokebola.png'
+import tasks from '../img/projects/tasks.png'
 import tmdb from '../img/projects/tmdb.jpeg'
 
 const ProjectsContainer = () => {
@@ -14,6 +15,60 @@ const ProjectsContainer = () => {
     <section className="projects-container">
         <h2>Alguns dos meus projetos</h2>
         <div className='projects-grid'>
+
+          <div className='project-item'>
+            <div className='logo-title'>
+              <img src={tasks} alt="Gerenciador de Tarefas" />
+              <h3>Gerenciador de Tarefas</h3>
+            </div>
+            <p>
+              Aplicação Full-Stack feita para gerenciar tarefas, desenvolvida entre os dias 24 e 26 de junho de 2023.<br/>
+              No Back-end utilizei NodeJS com express, sequelize, postgreSQL e hospedei na plataforma Railway.<br/>
+              Para o Front-end a estratégia foi utilizar React com Typescript, alguns componentes prontos do MaterialUI, várias bibliotecas para React (como toastify, hook form, zustand, tanstack react query...)<br/>
+              Esta aplicação foi feita como desafio técnico para uma vaga Full-Stack.
+            </p>
+            <div className='links'>
+              <a href="https://github.com/Filipe-Bacof/olhar180-backend-desafio" target="_blank" className="btn-project-deploy"><FaGithub />&nbsp;&nbsp;Back-end</a>
+              <a href="https://github.com/Filipe-Bacof/olhar180-frontend-desafio" target="_blank" className="btn-project-middle"><FaGithub />&nbsp;&nbsp;Front-end</a>
+              <a href="https://olhar180-frontend-desafio.vercel.app" target="_blank" className="btn-project-github"><RiNavigationLine />&nbsp;&nbsp;Ver Deploy</a>
+            </div>
+          </div>
+
+          <div className='project-item'>
+            <div className='logo-title'>
+              <img src={pokebola} alt="Icone Pokebola" />
+              <h3>Pokédex (pokeAPI)</h3>
+            </div>
+            <p>
+              Aplicação Front-End sobre pokémon desenvolvida entre os dias 28 de Junho e 02 de Julho de 2023.<br/>
+              Escrever código utilizando Tailwind torna o processo de desenvolvimento bem mais produtivo, várias idéias surgiram durante o desenvolvimento e o resultado realmente impressionou a mim e aos meus amigos.<br/>
+              A tela principal onde está a pokédex foi o que me deu mais insights, pois adicionei funcionalidades aos botões do topo, me atentei aos detalhes para tornar a experiência de quem usar esse site mais nostalgica.<br/>
+              Utilizei Next.JS como framework react para o desenvolvimento, e o deploy está hospedado no Vercel.<br/>
+              Este projeto foi feito como desafio técnico para uma vaga Full-Stack.
+            </p>
+            <div className='links'>
+              <a href="https://pokedex-bacof.vercel.app" target="_blank" className="btn-project-deploy"><RiNavigationLine />&nbsp;&nbsp;Ver Deploy</a>
+              <a href="https://github.com/Filipe-Bacof/pokedex-inb" target="_blank" className="btn-project-github"><FaGithub />&nbsp;&nbsp;Ver Repositório</a>
+            </div>
+          </div>
+
+          <div className='project-item'>
+            <div className='logo-title'>
+              <img src={nodejs} alt="Icon Node.JS" />
+              <h3>API Node.JS - Gerenciamento de Aulas</h3>
+            </div>
+            <p>
+              Projeto Back-End feito como teste técnico para uma vaga Full-Stack.<br/>
+              Em apenas 3 dias, desenvolvi uma solução utilizando tecnologias como Node.js, Express, JavaScript, MongoDB, Mongoose e JsonWebToken (JWT).<br/>
+              A implementação da autenticação JWT garantiu a segurança dos dados sensíveis, enquanto o Railway foi utilizado para hospedar a API.<br/>
+              Apesar do prazo curto, enfrentei o desafio com determinação e entreguei um projeto funcional e bem estruturado.
+            </p>
+            <div className='links'>
+              <a href="https://imm-teste-tecnico-backend.up.railway.app/" target="_blank" className="btn-project-deploy"><RiNavigationLine />&nbsp;&nbsp;Ver Deploy</a>
+              <a href="https://github.com/Filipe-Bacof/imm-teste-tecnico-backend" target="_blank" className="btn-project-github"><FaGithub />&nbsp;&nbsp;Ver Repositório</a>
+            </div>
+          </div>
+
           <div className='project-item'>
             <div className='logo-title'>
               <img src={nlwSpacetime} alt="Icon NLW Spacetime" />
@@ -56,23 +111,6 @@ const ProjectsContainer = () => {
 
           <div className='project-item'>
             <div className='logo-title'>
-              <img src={nodejs} alt="Icon Node.JS" />
-              <h3>API Node.JS - Desafio Técnico</h3>
-            </div>
-            <p>
-              Projeto feito como teste técnico no processo de seleção para a empresa IMM Digital.<br/>
-              Em apenas 3 dias, desenvolvi uma solução utilizando tecnologias como Node.js, Express, JavaScript, MongoDB, Mongoose e JsonWebToken (JWT).<br/>
-              A implementação da autenticação JWT garantiu a segurança dos dados sensíveis, enquanto o Railway foi utilizado para hospedar a API.<br/>
-              Apesar do prazo curto, enfrentei o desafio com determinação e entreguei um projeto funcional e bem estruturado.
-            </p>
-            <div className='links'>
-              <a href="https://imm-teste-tecnico-backend.up.railway.app/" target="_blank" className="btn-project-deploy"><RiNavigationLine />&nbsp;&nbsp;Ver Deploy</a>
-              <a href="https://github.com/Filipe-Bacof/imm-teste-tecnico-backend" target="_blank" className="btn-project-github"><FaGithub />&nbsp;&nbsp;Ver Repositório</a>
-            </div>
-          </div>
-
-          <div className='project-item'>
-            <div className='logo-title'>
               <img src={tmdb} alt="Icon TMDB" />
               <h3>Biblioteca de Filmes</h3>
             </div>
@@ -84,23 +122,6 @@ const ProjectsContainer = () => {
             <div className='links'>
               <a href="https://movies-lib-bacof.vercel.app/" target="_blank" className="btn-project-deploy"><RiNavigationLine />&nbsp;&nbsp;Ver Deploy</a>
               <a href="https://github.com/Filipe-Bacof/movies_lib" target="_blank" className="btn-project-github"><FaGithub />&nbsp;&nbsp;Ver Repositório</a>
-            </div>
-          </div>
-          
-          <div className='project-item'>
-            <div className='logo-title'>
-              <img src={netflix} alt="Icon Netflix" />
-              <h3>Netflix Clone</h3>
-            </div>
-            <p>
-              Executei este site enquanto estudava front-end utilizando React;<br/>
-              Clonei apenas a interface da Netflix utilizando a API do The Movie DataBase (TMDB)<br/>
-              Cada vez que atualizar a tela um novo filme será gerado na home, como este projeto é um pouco antigo, as vezes geram filmes sem sentido para estar "em alta", como achei isso engraçado mantive no projeto;<br/>
-              O deploy foi feito no próprio GitHub Pages.
-            </p>
-            <div className='links'>
-              <a href="https://filipe-bacof.github.io/netflix_clone/build/index.html" target="_blank" className="btn-project-deploy"><RiNavigationLine />&nbsp;&nbsp;Ver Deploy</a>
-              <a href="https://github.com/Filipe-Bacof/netflix_clone" target="_blank" className="btn-project-github"><FaGithub />&nbsp;&nbsp;Ver Repositório</a>
             </div>
           </div>
 
@@ -120,7 +141,6 @@ const ProjectsContainer = () => {
               <a href="https://filipe-bacof.github.io/Musicas-Bacof/" target="_blank" className="btn-project-github"><RiNavigationLine />&nbsp;&nbsp;Desafio Variação</a>
             </div>
           </div>
-
 
         </div>
     </section>
