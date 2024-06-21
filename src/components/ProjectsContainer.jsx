@@ -9,12 +9,49 @@ import nodejs from '../img/projects/nodeJS.png'
 import pokebola from '../img/projects/pokebola.png'
 import tasks from '../img/projects/tasks.png'
 import tmdb from '../img/projects/tmdb.jpeg'
+import lokos from '../img/projects/lokos.png'
 
 const ProjectsContainer = () => {
   return (
     <section className="projects-container">
         <h2>Alguns dos meus projetos</h2>
         <div className='projects-grid'>
+
+          <div className='project-item'>
+            <div className='logo-title'>
+              <img src={lokos} alt="Logo da banda Lokos d Bira" />
+              <h3>Site para a banda Lokos d Bira</h3>
+            </div>
+            <p>
+              Web App Full-Stack desenvolvida em conjunto com amigos para a banda mais carismática de Esteio-RS, projeto elaborado durante o mês de agosto de 2023.<br/>
+              No Back-end foi utilizado NodeJS com express, banco de dados mongoDB em conjunto com firebase para armazenamento de mídias e hospedado na Vercel.<br/>
+              Já o Front-end a estratégia foi utilizar React com Typescript, utilizando o framework Next.JS, foi um desafio criar o componente da televisão que está na aba de vídeos, mas o total foco foi não fazer parecer um site criado a partir de template, e sim algo com a cara e identidade da banda.<br/>
+              O ponto chave para esse projeto é que se você pesquisar no google o nome da banda, deve encontrar nos primeiros resultados o site, já que foram feitas várias melhorias de SEO que o NextJS possibilita.
+            </p>
+            <div className='links'>
+              <a href="https://lokosdbira.com.br/" target="_blank" className="btn-project-deploy"><RiNavigationLine />&nbsp;&nbsp;Ver Site da banda</a>
+              <a href="https://lokosdbira.vercel.app/" target="_blank" className="btn-project-github"><RiNavigationLine />&nbsp;&nbsp;Link Alternativo</a>
+            </div>
+          </div>
+
+          <div className='project-item'>
+            <div className='logo-title'>
+              <img src={pokebola} alt="Icone Pokebola" />
+              <h3>Pokédex (pokeAPI)</h3>
+            </div>
+            <p>
+              Todo programador tem que ter desenvolvido uma pokedéx em algum momento da vida hahaha
+              Essa aplicação Front-End foi criada entre os dias 28 de Junho e 02 de Julho de 2023.<br/>
+              Criei esse projeto utilizando minha biblioteca de estilização favorita que é o TailwindCSS, ao invés de pegar uma imagem pronta da pokedéx, preferi criar ela do zero usando CSS, tudo que você enxerga tirando as imagens de fundo e o pokémon, foram feitas com CSS.<br/>
+              A tela principal onde está a pokédex foi o que me deu mais insights, pois adicionei funcionalidades aos botões do topo, me atentei aos detalhes para tornar a experiência de quem usar esse site mais nostalgica.<br/>
+              Utilizei Next.JS como framework para o desenvolvimento, e o deploy está hospedado no Vercel.<br/>
+              Este projeto foi feito como desafio técnico para uma vaga Full-Stack.
+            </p>
+            <div className='links'>
+              <a href="https://pokedex-bacof.vercel.app" target="_blank" className="btn-project-deploy"><RiNavigationLine />&nbsp;&nbsp;Ver Deploy</a>
+              <a href="https://github.com/Filipe-Bacof/pokedex-inb" target="_blank" className="btn-project-github"><FaGithub />&nbsp;&nbsp;Ver Repositório</a>
+            </div>
+          </div>
 
           <div className='project-item'>
             <div className='logo-title'>
@@ -29,26 +66,8 @@ const ProjectsContainer = () => {
             </p>
             <div className='links'>
               <a href="https://github.com/Filipe-Bacof/olhar180-backend-desafio" target="_blank" className="btn-project-deploy"><FaGithub />&nbsp;&nbsp;Back-end</a>
-              <a href="https://github.com/Filipe-Bacof/olhar180-frontend-desafio" target="_blank" className="btn-project-middle"><FaGithub />&nbsp;&nbsp;Front-end</a>
-              <a href="https://olhar180-frontend-desafio.vercel.app" target="_blank" className="btn-project-github"><RiNavigationLine />&nbsp;&nbsp;Ver Deploy</a>
-            </div>
-          </div>
-
-          <div className='project-item'>
-            <div className='logo-title'>
-              <img src={pokebola} alt="Icone Pokebola" />
-              <h3>Pokédex (pokeAPI)</h3>
-            </div>
-            <p>
-              Aplicação Front-End sobre pokémon desenvolvida entre os dias 28 de Junho e 02 de Julho de 2023.<br/>
-              Escrever código utilizando Tailwind torna o processo de desenvolvimento bem mais produtivo, várias idéias surgiram durante o desenvolvimento e o resultado realmente impressionou a mim e aos meus amigos.<br/>
-              A tela principal onde está a pokédex foi o que me deu mais insights, pois adicionei funcionalidades aos botões do topo, me atentei aos detalhes para tornar a experiência de quem usar esse site mais nostalgica.<br/>
-              Utilizei Next.JS como framework react para o desenvolvimento, e o deploy está hospedado no Vercel.<br/>
-              Este projeto foi feito como desafio técnico para uma vaga Full-Stack.
-            </p>
-            <div className='links'>
-              <a href="https://pokedex-bacof.vercel.app" target="_blank" className="btn-project-deploy"><RiNavigationLine />&nbsp;&nbsp;Ver Deploy</a>
-              <a href="https://github.com/Filipe-Bacof/pokedex-inb" target="_blank" className="btn-project-github"><FaGithub />&nbsp;&nbsp;Ver Repositório</a>
+              <a href="https://github.com/Filipe-Bacof/olhar180-frontend-desafio" target="_blank" className="btn-project-github"><FaGithub />&nbsp;&nbsp;Front-end</a>
+              {/* <a href="https://olhar180-frontend-desafio.vercel.app" target="_blank" className="btn-project-github"><RiNavigationLine />&nbsp;&nbsp;Ver Deploy</a> */}
             </div>
           </div>
 

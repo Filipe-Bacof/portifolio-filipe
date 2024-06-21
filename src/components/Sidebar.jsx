@@ -18,9 +18,9 @@ const Sidebar = () => {
         <InformationContainer />
         <a href="https://github.com/Filipe-Bacof/portifolio-filipe/raw/master/public/curriculo-filipe-bacof.pdf" target="_blank" className="btn"><FiDownload />&nbsp;&nbsp;Baixe meu Currículo (Português)</a>
         <a href="https://github.com/Filipe-Bacof/portifolio-filipe/raw/master/public/resume-filipe-bacof.pdf" target="_blank" className="btn"><FiDownload />&nbsp;&nbsp;Baixe meu Currículo (Inglês)</a>
-        <a href="https://filipe-bacof.github.io/Meus-Certificados/" target="_blank" className="btn"><TbFileCertificate />&nbsp;&nbsp;Ver Meus Certificados</a>
+        <a href="https://www.linkedin.com/in/filipe-bacof/details/certifications/" target="_blank" className="btn"><TbFileCertificate />&nbsp;&nbsp;Ver Meus Certificados</a>
         <a href="https://github.com/Filipe-Bacof/portifolio-filipe" target="_blank" className="btn"><FaGithub />&nbsp;&nbsp;Ver Repositório do Portifólio</a>
-        <a href="https://portifolio-filipe-bacof-novo.vercel.app" target="_blank" className="btn"><RiNavigationLine />&nbsp;&nbsp;Ver Spoiler: Portifólio Novo</a>
+        {/* <a href="https://portifolio-filipe-bacof-novo.vercel.app" target="_blank" className="btn"><RiNavigationLine />&nbsp;&nbsp;Ver Spoiler: Portifólio Novo</a> */}
     </aside>
   )
 }

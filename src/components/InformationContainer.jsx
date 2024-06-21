@@ -9,8 +9,9 @@ const InformationContainer = () => {
         <div className="info-card">
             <AiOutlineWhatsApp id="phone-icon"/>
             <div>
-                <h3>Telefone</h3>
-                <p>(51) 99445-6865</p>
+                <h3>Telefones</h3>
+                <p>&#40;51&#41; 99445-6865</p>
+                <p>&#40;51&#41; 99763-1686</p>
             </div>
         </div>
         <div className="info-card">
