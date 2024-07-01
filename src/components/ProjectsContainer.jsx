@@ -10,6 +10,7 @@ import pokebola from '../img/projects/pokebola.png'
 import tasks from '../img/projects/tasks.png'
 import tmdb from '../img/projects/tmdb.jpeg'
 import lokos from '../img/projects/lokos.png'
+import metallica from '../img/projects/metallica.jpg'
 
 const ProjectsContainer = () => {
   return (
@@ -31,6 +32,23 @@ const ProjectsContainer = () => {
             <div className='links'>
               <a href="https://lokosdbira.com.br/" target="_blank" className="btn-project-deploy"><RiNavigationLine />&nbsp;&nbsp;Ver Site da banda</a>
               <a href="https://lokosdbira.vercel.app/" target="_blank" className="btn-project-github"><RiNavigationLine />&nbsp;&nbsp;Link Alternativo</a>
+            </div>
+          </div>
+
+          <div className='project-item'>
+            <div className='logo-title'>
+              <img src={metallica} alt="Letra M do logo do Metallica" />
+              <h3>Metallica API</h3>
+            </div>
+            <p>
+              Projeto Back-end criado com Node, Typescript e PostgreSQL usando o PrismaORM, criado para celebrar o dia do Rock em 2023, e posteriormente melhorado e adicionadas várias outras funcionalidades.<br/>
+              Em primeiro momento a aplicação fazia CRUD completo para todos os tipos de dados, mas optei em segundo momento de disponibilizar apenas endpoints de retornos de dados, o deploy mais recente foi efetuado na plataforma da Render.<br/>
+              O link para o deploy que eu disponibilizei agora está com o endpoint que retornar uma música aleatória, ao clicar ele abrirá no navegador uma música nova a cada requisição<br/>
+              Sou um grande fã dessa banda e criei esse projeto no intuito de fazer networking com outros desenvolvedores front-end, caso você crie uma aplicação utilizando minha API, entre em contato por e-mail, será um prazer incluir o link para sua aplicação aqui no meu portifólio.
+            </p>
+            <div className='links'>
+            <a href="https://metallica-api.onrender.com/song/random" target="_blank" className="btn-project-deploy"><RiNavigationLine />&nbsp;&nbsp;Ver Deploy</a>
+            <a href="https://github.com/Filipe-Bacof/metallica-api" target="_blank" className="btn-project-github"><FaGithub />&nbsp;&nbsp;Ver Repositório</a>
             </div>
           </div>
 
