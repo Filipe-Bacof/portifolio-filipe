@@ -43,8 +43,8 @@ const ProjectsContainer = () => {
             <p>
               Projeto Back-end criado com Node, Typescript e PostgreSQL usando o PrismaORM, criado para celebrar o dia do Rock em 2023, e posteriormente melhorado e adicionadas várias outras funcionalidades.<br/>
               Em primeiro momento a aplicação fazia CRUD completo para todos os tipos de dados, mas optei em segundo momento de disponibilizar apenas endpoints de retornos de dados, o deploy mais recente foi efetuado na plataforma da Render.<br/>
-              O link para o deploy que eu disponibilizei agora está com o endpoint que retornar uma música aleatória, ao clicar ele abrirá no navegador uma música nova a cada requisição<br/>
-              Sou um grande fã dessa banda e criei esse projeto no intuito de fazer networking com outros desenvolvedores front-end, caso você crie uma aplicação utilizando minha API, entre em contato por e-mail, será um prazer incluir o link para sua aplicação aqui no meu portifólio.
+              O link para o deploy que eu disponibilizei agora está com o endpoint que irá retornar uma música aleatória, ao clicar ele abrirá no navegador uma música nova a cada requisição<br/>
+              Sou um grande fã dessa banda e criei esse projeto no intuito de fazer networking com outros desenvolvedores front-end, caso você crie uma aplicação utilizando minha API, entre em contato por E-mail ou LinkedIn, será um prazer incluir o link para sua aplicação aqui no meu portifólio.
             </p>
             <div className='links'>
             <a href="https://metallica-api.onrender.com/song/random" target="_blank" className="btn-project-deploy"><RiNavigationLine />&nbsp;&nbsp;Ver Deploy</a>
