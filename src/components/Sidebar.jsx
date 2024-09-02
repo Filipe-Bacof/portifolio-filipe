@@ -13,7 +13,7 @@ const Sidebar = () => {
   return (
     <aside id="sidebar">
         <img src={Avatar} alt="Foto de Perfil Filipe Bacof" />
-        <p className="title">Desenvolvedor Full-Stack</p>
+        <p className="title">Desenvolvedor Full Stack</p>
         <SocialNetworks />
         <InformationContainer />
         <a href="https://github.com/Filipe-Bacof/portifolio-filipe/raw/master/public/curriculo-filipe-bacof.pdf" target="_blank" className="btn"><FiDownload />&nbsp;&nbsp;Baixe meu Currículo (Português)</a>
